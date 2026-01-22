@@ -1,0 +1,8 @@
+{
+  "typescript.suggest.enabled": false,
+  "javascript.suggest.enabled": false,
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.typeCheckingMode": "off",
+  "editor.quickSuggestions": false,
+  "editor.inlineSuggest.enabled": false
+}
