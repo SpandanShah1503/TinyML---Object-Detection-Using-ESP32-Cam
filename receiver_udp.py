@@ -10,3 +10,5 @@ UDP_PORT = 5005
 #Creating UDP Socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
+#Socket Binding
+sock.bind(UDP_IP, UDP_PORT)
