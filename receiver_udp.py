@@ -12,3 +12,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 #Socket Binding
 sock.bind(UDP_IP, UDP_PORT)
+
+#Receive Loop
+while True:
+  sock.recvfrom(65535)
