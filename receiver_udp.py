@@ -16,3 +16,6 @@ sock.bind(UDP_IP, UDP_PORT)
 #Receive Loop
 while True:
   sock.recvfrom(65535)
+
+#Receiver Timestamp
+recv_time = time.time
